@@ -12,23 +12,32 @@
       <legend>Data Buku</legend>
       <p>
         <label for="judul">Judul</label><br>
-        <input type ="text" id="judul" name="judul" placeholder=""Contoh: Clean Code" minlength="3" required>
+        <input type ="text" id="judul" name="judul" placeholder="Contoh: Clean Code" minlength="3" required>
       </p>
       <p>
         <label for="penulis">Penulis</label><br>
         <input type="text" id="penulis" name="penulis" required>
-        <p>
-          <label for="kategori">Kategori</label><br>
-          <select id="kategori" name="kategori">
-            <option value="1">Pemrograman</option>
-            <option value="2">Novel</option>
-            <option value="3">Sejarah</option>
+      </p>
+      <p>
+        <label for="kategori">Kategori</label><br>
+        <select id="kategori" name="kategori">
+          <option value="1">Pemrograman</option>
+          <option value="2">Novel</option>
+          <option value="3">Sejarah</option>
             <option value="4">Pengembangan Diri</option>
           </select>
         </p>
         <p>
           <label for="tahun">Tahun terbit</label>
           <input type="number" id="tahun" name="tahun" min="1900" max="2026" required>
+        </p>
+        <p>
+          <label for="tanggal">Tanggal terbit</label>
+          <input type="date" id="tanggal" name="tanggal" required>
+        </p>
+        <p>
+          <label for="situs">Situs Terbit</label>
+          <input type="url" id="situs" name="situs" placeholder="https://contoh.com">
         </p>
         <p>
           <label for="stok">Stok</label><br>
